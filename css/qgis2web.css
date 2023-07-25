@@ -1,4 +1,61 @@
 
+
+        body{
+            font-family: Heebo;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header{
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        #map {
+            background-color: #ffffff
+        }
+
+        #leyenda{
+            width: 40%;
+        }
+
+        #logo{
+            width: 5%;
+        }
+
+        #logoepdata {
+            width: 7%;
+            height: 7%;
+            background-image: url("./img/logoepdata.png")
+        }
+
+        @media screen and (max-width: 500px) {
+            #leyenda{
+                width: 100%;
+            }
+
+            #logo{
+                width: 10%;
+            }
+
+            #logoepdata {
+                width: 20%;
+                height: 20%;
+            }
+
+        }
+
+        footer {
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
         #map {
             background-color: #ffffff
         }
